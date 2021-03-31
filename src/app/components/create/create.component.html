@@ -1,0 +1,32 @@
+<hr>
+<span class="icon"> </span>
+<form #form="ngForm" (ngSubmit)="submit(form)">
+    <span class="icon"></span>
+    <span class="first_name"><input
+        type="text"
+        name="first_name"
+        [(ngModel)]="first_name"
+        placeholder="Vorname"
+    /></span>
+    <span class="last_name"><input
+        type="text"
+        name="last_name"
+        [(ngModel)]="last_name"
+        placeholder="Nachname"
+    /></span>
+    <span class="phone"><input
+        type="text"
+        name="phone"
+        [(ngModel)]="phone"
+        placeholder="Telefon"
+    /></span>
+    <span class="email"><input
+        type="text"
+        name="email"
+        [(ngModel)]="email"
+        placeholder="E-Mail"
+    /></span>
+    <span class="icon"><button type="submit" class="btn btn-success">
+        <i class="fas fa-user-plus"></i> 
+    </button></span>
+</form>

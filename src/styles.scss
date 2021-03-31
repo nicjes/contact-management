@@ -1,0 +1,41 @@
+@use './assets/variables' as v;
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 100%;
+  line-height: 2rem;
+  background-color: v.$bg;
+}
+
+main {
+  margin-top: 2.5rem;
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+}
+
+.first_name {
+  width: 14vw;
+}
+
+.last_name {
+  width: 18vw;
+}
+
+.phone {
+  width: 14vw;
+}
+
+.email {
+  width: 18vw;
+}
+
+.icon {
+  width: 2vw;
+}

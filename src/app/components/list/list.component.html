@@ -1,0 +1,19 @@
+<div id="backg">
+  <p id="titles">
+    <span class="icon"></span>
+    <span class="first_name">Vorname</span>
+    <span class="last_name">Nachname</span>
+    <span class="phone">Telefon</span>
+    <span class="email">E-Mail</span>
+    <span class="icon"></span>
+  </p>
+
+  <app-contact
+    *ngFor="let contact of list"
+    [contact]="contact"
+    (del)="delete($event)"
+  >
+  </app-contact>
+
+  <app-create (create)="create($event)"> </app-create>
+</div>

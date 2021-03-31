@@ -1,0 +1,23 @@
+@use '../../../assets/variables' as v;
+
+div {
+  align-content: center;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.5em v.$bg-dark;  
+}
+
+#titles {
+  font-weight: bold;
+  background-color: v.$bg;
+  color: white;
+  border-radius: 1rem;
+  margin-top: -0.5rem;
+}
+
+#backg {
+  background-color: v.$bg-light;
+  padding: 3vw;
+}

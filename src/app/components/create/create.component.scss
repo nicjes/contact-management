@@ -1,0 +1,46 @@
+@use '../../../assets/variables' as v;
+
+form {
+  margin-bottom: -0.5rem;
+}
+
+input {
+  text-align: center;
+  width: 90%;
+}
+
+input[type="text"] {
+  padding: 0.6rem;
+  font-size: 0.9rem;
+}
+
+button[type="submit"] {
+  color: v.$green;
+  font-size: large;
+  background-color: white;
+  border-style: solid;
+  border-color: v.$green;
+  border-width: 2px;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: v.$green;
+  color: white;
+  transition: 0.3s;
+}
+
+hr {
+  background: grey;
+  height: 1px;
+  border: none;
+  margin-bottom: -1rem;
+  margin-top: 1.8rem;
+}
+
+.red {
+  border: 2px solid red;
+  border-radius: 2px;
+}

@@ -1,0 +1,19 @@
+<p>
+  <span class="icon"><i class="fas fa-user"></i></span>
+  <span class="first_name" contenteditable="true" id="test"
+    >{{ contact.first_name }}<i class="fas fa-pen"></i
+  ></span>
+  <span class="last_name" contenteditable="true"
+    >{{ contact.last_name }}<i class="fas fa-pen"></i
+  ></span>
+  <span class="phone" contenteditable="true"
+    >{{ contact.phone }}<i class="fas fa-pen"></i
+  ></span>
+  <span class="email" contenteditable="true"
+    >{{ contact.email }}<i class="fas fa-pen"></i
+  ></span>
+  <span class="icon"
+    ><button (click)="delete(contact)" class="del">
+      <i class="fas fa-trash-alt"></i></button
+  ></span>
+</p>

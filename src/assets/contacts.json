@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0000000000000",
+    "first_name": "Nico",
+    "last_name": "Jeschke",
+    "phone": "01704980438",
+    "email": "nicojeschke@hotmail.com"
+  },
+  {
+    "id": "0000000000001",
+    "first_name": "Max",
+    "last_name": "Mustermann",
+    "phone": "0123456789",
+    "email": "max@mustermann.de"
+  },
+  {
+    "id": "0000000000002",
+    "first_name": "Erika",
+    "last_name": "Musterfrau",
+    "phone": "0987654321",
+    "email": "erika@musterfrau.de"
+  }
+]

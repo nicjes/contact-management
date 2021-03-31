@@ -1,0 +1,12 @@
+@use '../../../assets/variables' as v;
+
+header {
+    background: v.$bg-dark;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 99vw;
+    border-radius: 4em;
+  }
